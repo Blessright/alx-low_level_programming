@@ -2,10 +2,8 @@
 
 /**
  * main - prints _putchar exactly
- *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	_putchar('_');
