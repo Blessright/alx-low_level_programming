@@ -8,7 +8,7 @@
 void print_number(int n)
 {
 	unsigned int un = 0;
-	
+
 	if (n < 0)
 	{
 		if (n < 1000000000)
@@ -32,7 +32,7 @@ void print_number(int n)
 void num_to_char(unsigned int n)
 {
 	unsigned int d = 10;
-	
+
 	if (n < d)
 	{
 		_putchar('0' + n);
