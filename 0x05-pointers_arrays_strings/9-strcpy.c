@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * *_strcpy - copies string to given memory location
  * @dest: where the string needs to be copied
