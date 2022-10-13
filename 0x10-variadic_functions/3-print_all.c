@@ -1,4 +1,6 @@
-#include "variadic_functions.h"
+#include <stdio.h>
+#include <stdarg.h>
+#include <stdlib.h>
 
 /**
  * main - Write a function that prints anything.
