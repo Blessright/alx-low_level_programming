@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdarg.h>
-#include <stdlib.h>
+#include "variadic_functions.h"
+#include <stdio.h>                                                                                                                                     
+#include <stdarg.h> 
 
 /**
  * Main - Write a function that prints numbers,
@@ -9,7 +9,7 @@
  * @n: number of integers passed to the function
  * Return: Always 0.
  */
-void print_numbers(const char *separator, const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	va_list numbers;

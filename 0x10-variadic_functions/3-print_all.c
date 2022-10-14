@@ -1,13 +1,13 @@
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-#include <stdlib.h>
 
 /**
  * main - Write a function that prints anything.
  * @format: lists all types of arguments passed to the function
  * Return: always 0.
  */
-void print_all(const char * const format, ...);
+void print_all(const char * const format, ...)
 {
 	unsigned int i;
 	va_list args;

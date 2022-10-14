@@ -1,6 +1,6 @@
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-#include <stdlib.h>
 
 /**
  * Main - Write a function that prints strings,
@@ -9,7 +9,7 @@
  * @n: the number of strings passed to the function
  * Return: Always 0.
  */
-void print_strings(const char *separator, const unsigned int n, ...);
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *s;
